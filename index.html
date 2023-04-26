@@ -177,6 +177,90 @@
             </div>
         </section>
 
+        <section>
+            <div class="container">
+                <h2 class="title_page">
+                    <span>Ипотека</span>
+                    <sup><a href="https://нндк.рф/mortgage/" target="_blank">ссылка</a></sup>
+                </h2>
+                <div class="error_page">
+                    <ol>
+                        <li>
+                            <p>атрибуты min/max для элемента не разрешен input</p>
+                            <ul>
+                                <li class="bec"> Возможно, ошибка возникает из-за input (type='text'), атрибутом задания размера которого являеются maxlength/minlength  </li>
+                            </ul>
+                            <p class="comment_valid">
+                                From line 395, column 49; to line 395, column 140 <br>
+                                From line 406, column 49; to line 406, column 167 <br>
+                                From line 417, column 49; to line 417, column 172 <br>
+                                From line 428, column 45; to line 428, column 134
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="title_page">
+                    <span>Материнский капитал</span>
+                    <sup><a href="https://нндк.рф/clients/maternal-capital/" target="_blank">ссылка</a></sup>
+                </h2>
+                <div class="error_page">
+                    <ol>
+                        <li>
+                            <p>Элемент table не разрешен как дочерний элемент элемента h2</p>
+                            <p class="comment_valid">Из строки 322, столбец 1; в строку 322, столбец 39</p>
+                        </li>
+                        <li>
+                            <p>Атрибуты 'cellpadding' и "cellspacing" в table элементе устарел</p>
+                            <p class="comment_valid">Из строки 322, столбец 1; в строку 322, столбец 39</p>
+                        </li>
+                        <li>
+                            <p>Пустой 'tr' в  tbody</p>
+                            <p class="comment_valid">Из строки 330, столбец 5; в строку 331, столбец 5</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="title_page">
+                    <span>О компании</span>
+                    <sup><a href="https://нндк.рф/about-company/" target="_blank">ссылка</a></sup>
+                </h2>
+                <div class="error_page">
+                    <ol>
+                        <li>
+                            <p> frameborder атрибут в iframe элементе устарел.</p>
+                            <p class="comment_valid">Из строки 340, столбец 3; в строку 340, столбец 291</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="title_page">
+                    <span>СМИ о нас - Первая удачная...</span>
+                    <sup><a href="https://нндк.рф/press/in-media/pervaya-udachnaya-realizatsiya-proekta-po-vosstanovleniyu-istoricheskogo-zdaniya/" target="_blank">ссылка</a></sup>
+                </h2>
+                <div class="error_page">
+                    <ol>
+                        <li>
+                            <p> frameborder атрибут в iframe элементе устарел.</p>
+                            <p class="comment_valid">From line 337, column 1; to line 337, column 250</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
       </section>
 
 
@@ -208,8 +292,14 @@
                             <img src="assets/icon/3.png" alt="error">
                         </li>
                         <li>
-                            <p>Не работает изменение вида списка в блоке "Жилые комплексы"</p>
+                            <p>В блоке "Жилые комплексы", при смене вида отображения карточек ЖК - карта открывается под карточками, а не заменяет их</p>
                             <img src="assets/icon/2.png" alt="error">
+                            <p class="comment_valid">Повторяется на всех страницах имеющих подобное переключение</p>
+                        </li>
+                        <li>
+                            <p>В блоке "Жилые комплексы", при смене вида отображения карточек ЖК на карту - первый раз она открывается адекватно, но если потом переключить вид на домик и снова на карту - она наезжает на нижний контент страницы</p>
+                            <video src="assets/icon/17.mp4" controls loop></video>
+                            <p class="comment_valid">Повторяется на всех страницах имеющих подобное переключение</p>
                         </li>
                         <li>
                             <p>Трижды повторяется один и тот же банк в блоке "Ипотека"</p>
@@ -227,6 +317,22 @@
                             </ul>
                             <video src="assets/icon/6.mp4" controls loop></video>    
                             <p class="comment_valid">Повторяется на всех страницах с подобной формой</p>
+                        </li>
+                        </li>
+                        <li>
+                            <p>Разрешение 768px - открываем бургкр меню, закрываем, крестик остаётся вместо бургера</p>
+                            <video src="assets/icon/22.mp4" controls loop></video>    
+                            <p class="comment_valid">Повторяется на всех страницах с бургер меню</p>
+                        </li>
+                        <li>
+                            <p>Разрешение 768px - модалка "Оставьте заявку" открывается не по центру экрана</p>
+                            <img src="assets/icon/26.png" alt="error">
+                            <p class="comment_valid">Повторяется на всех страницах</p>
+                        </li>
+                        <li>
+                            <p>Разрешение 768px - В подвале очень мгоно свободного места справа</p>
+                            <img src="assets/icon/27.png" alt="error">
+                            <p class="comment_valid">Повторяется на всех страницах</p>
                         </li>
                     </ol>
                 </div>
@@ -293,6 +399,11 @@
                             <img src="assets/icon/12.png" alt="error">
                             <p class="comment_valid">Повторяется на всех страницах с подобным фильтром</p>
                         </li>
+                        <li>
+                            <p>Разрешение 768 - блок смещён влево</p>
+                            <img src="assets/icon/25.png" alt="error">
+                            <p class="comment_valid">Повторяется на всех страницах с подобным блоком</p>
+                        </li>
                     </ol>
                 </div>
             </div>
@@ -313,6 +424,87 @@
                         <li>
                             <p>По клику на кнопку выкидывает вверх страницы, больше ничего не происходит</p>
                             <img src="assets/icon/14.png" alt="error">
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="title_page">
+                    <span>О компании</span>
+                    <sup><a href="https://нндк.рф/about-company/" target="_blank">ссылка</a></sup>
+                </h2>
+                <div class="error_page">
+                    <ol class="external-list">                     
+                        <li>
+                            <p>Фоновые цифры наезжают на верхний блок</p>
+                            <img src="assets/icon/19.png" alt="error">                            
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="title_page">
+                    <span>Акции - счастливая ипотека</span>
+                    <sup><a href="https://нндк.рф/stocks/schastlivaya-ipoteka-ot-2-9-v-zhk-koritsa/" target="_blank">ссылка</a></sup>
+                </h2>
+                <div class="error_page">
+                    <ol class="external-list">                     
+                        <li>
+                            <p>Очень большая высота строки для очень маленького текста</p>
+                            <img src="assets/icon/20.png" alt="error">                            
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="title_page">
+                    <span>Контакты</span>
+                    <sup><a href="https://нндк.рф/contacts/" target="_blank">ссылка</a></sup>
+                </h2>
+                <div class="error_page">
+                    <ol class="external-list">                     
+                        <li>
+                            <p>На карте при загрузке страницы открывается дополнительный, а не главный офис</p>
+                            <img src="assets/icon/21.png" alt="error">                            
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="title_page">
+                    <span>Страница ЖК (Корица)</span>
+                    <sup><a href="https://нндк.рф/project/zhk-koritsa/" target="_blank">ссылка</a></sup>
+                </h2>
+                <div class="error_page">
+                    <ol class="external-list">                     
+                        <li>
+                            <p>Блок "Офис продаж" - кликаем по надписи "на карте", затем "построить маршрут" - карта открывается, маршрут не строится</p>
+                            <img src="assets/icon/22.png" alt="error">                            
+                        </li>
+                        <li>
+                            <p>Не перетягивается ползунок смещения для сравнения дизайнов квартир, на разрешении 768 - тапом перетягиевается</p>
+                            <img src="assets/icon/23.png" alt="error">                            
+                        </li>
+                        <li>
+                            <p>Разрешение 768 - Видео не помещается в контейнер, работает вертикальный скролл</p>
+                            <img src="assets/icon/24.png" alt="error">                            
+                        </li>
+                        <li>
+                            <p>Разрешение 470 - Съезжает пометка "отделка под ключ", с другими подобными всё ок</p>
+                            <img src="assets/icon/28.png" alt="error">       
+                            <p class="comment_valid">Повторяется на всех страницах с подобными пометками</p>                     
                         </li>
                     </ol>
                 </div>
