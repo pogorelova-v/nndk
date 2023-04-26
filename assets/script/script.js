@@ -1,5 +1,5 @@
 
-$(document).on('click', '.validation', function(e){
+$(document).on('click', '.title_page', function(e){
     if ( $( e.target ).siblings( ".error_page" ).is(":visible")) {
         $( ".error_page" ).slideUp()
     } else {
