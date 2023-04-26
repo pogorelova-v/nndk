@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NNDK</title>
+    <link rel="stylesheet" href="assets/style/reset.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Ошибки на сайте <a href="https://pknn2.brain-storm.ru/">pknn2.brain-storm.ru</a></h1>
+        <div class="sub-title">
+            <button class="btn_validation-js">Валидатор</button>
+            <button class="btn_external-js">Видимые</button>
+        </div>
+    </header>
+
+    <main>
+
+      <section class="validation type_verification">
+
+        <section class="main_page">
+            <div class="container">
+                <h2 class="title_page">
+                    <span>Главная страница</span>
+                    <a href="https://pknn2.brain-storm.ru/" target="_blank">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.7057 13.7071L17.9986 7.41421V11H19.9986V4H12.9986V6H16.5844L10.2915 12.2929L11.7057 13.7071Z"
+                                fill="#520b94" />
+                            <path
+                                d="M19.0015 18V14H17.0015V18H6.00146V7H10.0015V5H6.00146C4.8969 5 4.00146 5.89543 4.00146 7V18C4.00146 19.1046 4.8969 20 6.00146 20H17.0015C18.106 20 19.0015 19.1046 19.0015 18Z"
+                                fill="#520b94" />
+                        </svg>
+                    </a>
+                </h2>
+                <div class="error_page">
+                    <ol>
+                        <li>
+                            <p>Сharset указан в устаревшем формате</p>
+                            <ul>
+                                <li class="was"> &lt;meta http-equiv="Content-Type" content="text/html;
+                                    charset=UTF-8"&gt; </li>
+                                <li class="bec"> &lt;meta charset="UTF-8"&gt;</li>
+                            </ul>
+                            <p class="comment_valid">Из строки 7, столбец 9; в строку 7, столбец 77</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+      </section>
+
+      <section class="external type_verification">
+            <div class="container">
+                <ol class="external-list">
+                    <li>
+                        <p>Под шторкой не видно кнопку обратной связи, адреса и невозможно зайти в ЛК</p>
+                        <img src="assets/icon/1.png" alt="error">
+                        <p class="comment_valid"><a href="https://pknn152.ru/" target="_blank">ссылка</a></p>
+                    </li>
+                </ol>
+            </div>
+      </section>
+    </main>
+
+    <footer>
+        <a href="mailto:pogorelova@upfly.ru">pogorelova@upfly.ru</a>
+    </footer>
+    <script src="assets/script/jq.js"></script>
+    <script src="assets/script/script.js"></script>
+</body>
+
+</html>
